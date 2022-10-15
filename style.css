@@ -1,13 +1,22 @@
-body {
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
-  width: 40rem;
+.wrap_video {
+  width: 35rem;
 }
+
 video {
   min-width: 250px;
   width: 100%;
